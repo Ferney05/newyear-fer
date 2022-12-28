@@ -4,8 +4,8 @@ const sectNewyear = document.querySelector('[dataSect-newyear]');
 const video = document.querySelector('.video-fondo');
 
 export function verificandoFechaActual(){
-    const fActual = new Date('1, 01, 2023'); 
-    const fDestino = new Date('1, 01, 2023');
+    const fActual = new Date(); 
+    const fDestino = new Date('29, 12, 2022');
 
     if(fActual.getTime() == fDestino.getTime()){
         sectFechas.style = 'display: none';
