@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year</title>
+    <link rel="shortcut icon" href="icon-gtechBlanco.svg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <video class="video-fondo" autoplay muted loop>
+        <source src="nuevoyear.mp4" type="video/mp4" />
+    </video>
+
+    <div class="content-redes">
+        <div class="imgs">
+            <a class="inst-ferdan" target="_blank" href="https://www.instagram.com/dan_fer0911/"><img src="instagram.png" class="img-icono" alt=""></a>
+            <a class="inst-ferdan" target="_blank" href="https://www.linkedin.com/in/ferney-barbosa-253960243/"><img src="linkedin.png" class="img-icono" alt=""></a>
+            <a class="inst-ferdan" target="_blank" href="https://www.facebook.com/ferdan11"><img src="facebook.png" class="img-icono" alt=""></a>
+        </div>
+
+        <div class="music-year">
+            <span class="play"><a href="#">Play</a></span>
+            <span class="stop"><a href="#">Stop</a></span>
+        </div>
+    </div>
+    
+    <main class="container-main">
+
+        <section class="sect-fechas" dataSect-fechas>
+            <div class="content-fechas">
+
+                <div class="fechaActual">
+                    <p class="f-actual">Fecha Actual</p>
+                    <span class="f-spanActual" dataFechaActualspan></span>
+                </div>
+    
+                <div class="fechaEsperada">
+                    <p class="f-esperada">Fecha Esperada</p>
+                    <span class="f-spanEsperada">1 / 01 / 2023</span>
+                </div>
+    
+            </div>
+        </section>
+
+        <section class="sect-newyear" dataSect-newyear>
+            <div class="newyear-container">
+                <div class="title-phrase">
+                    <h1 class="happy-title">Feliz Año Nuevo</h1>
+                    <p class="frase-firts" datafraseFirts></p>
+                </div>
+
+                <div class="box-messaje">
+                    <p class="messaje-newyear" dataMessaje-newyear>Que este nuevo año te de la fortaleza y prosperidad para cumplir todas tus metas.</p>
+                </div>
+
+                <button class="boton-mensaje" dataMensajesButton>Nueva frase</button>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Cormorant+Garamond:wght@300&family=Diplomata+SC&family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&family=Estonia&family=Fleur+De+Leah&family=Gayathri:wght@100&family=Gowun+Batang&family=Grey+Qo&family=Inconsolata:wght@300&family=Josefin+Sans:wght@200;300;500;600;700&family=Josefin+Slab:wght@500&family=League+Spartan:wght@200;300;400;600&family=Lexend+Deca:wght@200;300;400;500;600;700;800;900&family=Merriweather:wght@300&family=Monsieur+La+Doulaise&family=Montserrat:wght@200;300;600;700&family=Peralta&family=Quicksand&family=Raleway:wght@200;300;400;600&family=Righteous&family=Smokum&family=Ubuntu:wght@300;400;500;700&family=Updock&family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Cormorant+Garamond:wght@300&family=Cormorant:ital,wght@0,300;1,300&family=Diplomata+SC&family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&family=Estonia&family=Fleur+De+Leah&family=Gayathri:wght@100&family=Gowun+Batang&family=Grey+Qo&family=Inconsolata:wght@300&family=Josefin+Sans:wght@200;300;500;600;700&family=Josefin+Slab:wght@500&family=League+Spartan:wght@200;300;400;600&family=Lexend+Deca:wght@200;300;400;500;600;700;800;900&family=Merriweather:wght@300&family=Monsieur+La+Doulaise&family=Montserrat:wght@200;300;600;700&family=Peralta&family=Prompt:wght@100;200&family=Quicksand&family=Raleway:wght@200;300;400;600&family=Righteous&family=Smokum&family=Snippet&family=Ubuntu:wght@300;400;500;700&family=Updock&family=Zen+Loop:ital@0;1&family=Zen+Tokyo+Zoo&display=swap');
+
+:root {
+    --fuente-cursive: 'Updock', cursive;
+    --fuente-promt: 'Prompt', sans-serif;
+    --color-gris: #e4e7e4;
+    --color-white: #FDFDFD;
+    --color-azul-text: #2329D6;
+    --background-color-azul: #503ca8;
+    --color-morado-claro: #5500c4;
+    --color-verde-claro: #15ff00;
+    --color-naranja-claro: #ff3c00;
+    --color-negro-text: #000000;
+    --color-transparente: #00000000;
+    --background-color-negro: #101010e8;
+    --background-colorNegro: #6b6b6ba4;
+}
+
+* {
+    font-family: var(--fuente-promt);
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body {
+    background-color: var(--background-color-negro);
+}
