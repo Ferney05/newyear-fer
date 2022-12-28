@@ -95,6 +95,10 @@
         flex-direction: column;
         gap: 4rem;
     }
+
+    .container-main {
+        height: 560px;
+    }
 }
 
 
