@@ -6,14 +6,19 @@ window.addEventListener("load",function(){
 	document.querySelector(".stop").addEventListener("click",callarMusic);			
 });
 
-function sonarMusic(){
+const sonarMusic = () => {
+    const musicContainer = ["nuevoyear.mp3", "navidad.mp3", "añonuevo.mp3", "benditodiciembre.mp3", "chorreao.mp3","vientosnavidad.mp3"];
+    const long = musicContainer.length;
+    let musicAleatoria = numAleatorio(0, long);
+
 	var sonido = document.createElement("iframe");
-	sonido.setAttribute("src","nuevoyear.mp3");
+	sonido.setAttribute("src", `${musicContainer[musicAleatoria]}`);
+    sonido.style = 'width: 20px; height: 20px';
 	document.body.appendChild(sonido);
 	document.querySelector(".play").removeEventListener("click",sonarMusic);
 }
 
-function callarMusic(){
+const callarMusic = () => {
 	var iframe = document.getElementsByTagName("iframe");
 
 	if (iframe.length > 0){

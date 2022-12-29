@@ -28,27 +28,48 @@
     width: 20px;
 }
 
-.music-year {
+.music-year {    
     display: none;
     cursor: pointer;
     margin-top: 0.8rem;
 }
 
-.play a {
-    background-color: var(--background-color-azul);
-    padding: 0.8rem;
-    border-radius: 50px;
+.content-play-stop {
+    display: flex;
+    align-items: center;
+}
+
+.play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--color-gris);
+    border: 3px solid var(--background-color-azul);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
     text-decoration: none;
     color: var(--color-gris);
     margin-right: 1rem;
 }
 
-.stop a {
-    background-color: var(--color-naranja-claro);
-    padding: 0.8rem;
-    border-radius: 50px;
+.stop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--color-gris);
+    border: 3px solid var(--color-naranja-claro);
+    border-radius: 100px;
     text-decoration: none;
     color: var(--color-gris);
+}
+
+.img-music {
+    width: 18px;
 }
 
 .container-main {
