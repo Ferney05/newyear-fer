@@ -11,7 +11,10 @@ export function verificandoFechaActual(){
     const actual = new Date(); 
 
     const fechaActual = `${actual.getDate()} ${actual.getMonth() + 1} ${actual.getFullYear()} ${actual.getMinutes()}`;
-    const fechaEsperada = '29 12 2022 30';
+    const fechaEsperada = '30 12 2022';
+    
+    const mesNuevoYear = '01';
+    const yearNuevo = '2023';
 
     if(fechaActual == fechaEsperada){
         sectSecondsMins.style = 'display: none';
