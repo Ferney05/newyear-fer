@@ -21,8 +21,8 @@ const faltanFive = () => {
     const nuevaHoursActual = new Date();
     
     const fechaActualFin = `${nuevaHoursActual.getDate()} ${nuevaHoursActual.getMonth() + 1} ${nuevaHoursActual.getFullYear()} ${nuevaHoursActual.getHours()} ${nuevaHoursActual.getMinutes()} ${nuevaHoursActual.getSeconds()}`;
-    const fechaFinYear = '29 12 2022 18 50 0'; 
-    const ultimoMin = '29 12 2022 18 51 59'; 
+    const fechaFinYear = '29 12 2022 19 55 0'; 
+    const ultimoMin = '29 12 2022 19 59 59'; 
 
     if(fechaActualFin >= fechaFinYear && fechaActualFin <= ultimoMin){
         
