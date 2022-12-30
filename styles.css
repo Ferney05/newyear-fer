@@ -141,8 +141,10 @@
 
 .title-f-principal {
     font-size: 2rem;
-    color: var(--color-azul-text);
     margin-bottom: 2rem;
+    background: linear-gradient(180deg, #2329D6 20%, #ff3c00 80%) padding-box;
+    color: var(--color-transparente);
+    -webkit-background-clip: text;
 }
 
 .title {
@@ -154,13 +156,17 @@
 .minutes {
     font-size: 3rem;
     font-weight: 500;
-    color: var(--color-azul-text);
+    background: linear-gradient(180deg, #2329D6 20%, #ff3c00 80%) padding-box;
+    color: var(--color-transparente);
+    -webkit-background-clip: text;
 }
 
 .seconds {
     font-size: 3rem;
     font-weight: 500;
-    color: var(--color-azul-text);
+    background: linear-gradient(180deg, #2329D6 20%, #ff3c00 80%) padding-box;
+    color: var(--color-transparente);
+    -webkit-background-clip: text;
 }
 
 /* SECCION 3 */
