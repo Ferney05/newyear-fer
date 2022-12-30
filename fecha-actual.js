@@ -21,8 +21,8 @@ const faltanFive = () => {
     const nuevaHoursActual = new Date();
     
     const fechaActualFin = `${nuevaHoursActual.getDate()} ${nuevaHoursActual.getMonth() + 1} ${nuevaHoursActual.getFullYear()} ${nuevaHoursActual.getHours()} ${nuevaHoursActual.getMinutes()} ${nuevaHoursActual.getSeconds()}`;
-    const fechaFinYear = '29 12 2022 19 55 0'; 
-    const ultimoMin = '29 12 2022 19 59 59'; 
+    const fechaFinYear = '29 12 2022 20 25 0'; 
+    const ultimoMin = '29 12 2022 20 29 59'; 
 
     if(fechaActualFin >= fechaFinYear && fechaActualFin <= ultimoMin){
         
@@ -30,11 +30,16 @@ const faltanFive = () => {
         sectSecondsMins.style = 'display: block';
 
         window.addEventListener("load",function(){
+            document.querySelector(".body").addEventListener("click", sonarMusic);
+        });
+        
+        const sonarMusic = () => {    
             var sonido = document.createElement("iframe");
             sonido.setAttribute("src", "faltan.mp3");
             sonido.style = 'width: 0px; height: 0px; position: absolute; margin-top: -40rem';
-            document.body.appendChild(sonido).onplay();
-        });
+            document.body.appendChild(sonido);
+            document.querySelector(".body").removeEventListener("click", sonarMusic);
+        }
 
         setInterval(() => {
             const horaActual = new Date();
