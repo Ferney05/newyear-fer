@@ -12,6 +12,8 @@
 }
 
 .soledad-fondo {
+    display: none;
+
     width: 100vw;
     height: 100vh;
     object-fit: cover;
@@ -180,7 +182,7 @@
     cursor: pointer;
     outline: none;
     background-color: var(--color-gris);
-    color: var(--color-azul-text);
+    color: var(--color-naranja-claro);
 
     border: none;
     border-radius: 5px;
@@ -188,7 +190,7 @@
 
 @media (max-width: 500px){
     .title-f-principal {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 }
 

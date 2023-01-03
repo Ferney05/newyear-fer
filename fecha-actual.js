@@ -1,6 +1,7 @@
 
 const fechaActualspan = document.querySelector('[dataFechaActualspan]');
 
+const soledadFondo = document.querySelector('.soledad-fondo');
 const sectFechas = document.querySelector('[dataSect-fechas]');
 const sectSecondsMins = document.querySelector('.sect-secondsMins');
 const minutes = document.querySelector('.minutes');
@@ -28,9 +29,10 @@ const faltanFive = () => {
         
         sectFechas.style = 'display: none';
         sectSecondsMins.style = 'display: block';
+        soledadFondo.style = 'display: block';
 
         window.addEventListener("load",function(){
-            document.querySelector(".body").addEventListener("click", sonarMusic);
+            document.querySelector("[dataBotonColocarMusic]").addEventListener("click", sonarMusic);
         });
         
         const sonarMusic = () => {    
@@ -38,7 +40,7 @@ const faltanFive = () => {
             sonido.setAttribute("src", "faltan.mp3");
             sonido.style = 'width: 0px; height: 0px; position: absolute; margin-top: -40rem';
             document.body.appendChild(sonido);
-            document.querySelector(".body").removeEventListener("click", sonarMusic);
+            document.querySelector("[dataBotonColocarMusic]").removeEventListener("click", sonarMusic);
         }
 
         setInterval(() => {
