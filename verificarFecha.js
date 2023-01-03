@@ -5,6 +5,7 @@ const sectNewyear = document.querySelector('[dataSect-newyear]');
 const video = document.querySelector('.video-fondo');
 const musicYear = document.querySelector('.music-year');
 const sectSecondsMins = document.querySelector('.sect-secondsMins');
+const soledadFondo = document.querySelector('.soledad-fondo');
 
 export function verificandoFechaActual(){
     const actual = new Date(); 
@@ -14,6 +15,8 @@ export function verificandoFechaActual(){
     if(fechaActual == fechaEsperada){
         sectSecondsMins.style = 'display: none';
         sectFechas.style = 'display: none';
+        soledadFondo.style = 'display: none';
+
         sectNewyear.style = 'display: block';
         video.style = 'display: block';
         musicYear.style = 'display: block';
