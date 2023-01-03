@@ -177,6 +177,12 @@
     -webkit-background-clip: text;
 }
 
+@media (max-width: 500px){
+    .title-f-principal {
+        font-size: 1.7rem;
+    }
+}
+
 /* SECCION 3 */
 
 .happy-title {
