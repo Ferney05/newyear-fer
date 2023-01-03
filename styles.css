@@ -11,6 +11,13 @@
     display: none;
 }
 
+.soledad-fondo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+}
+
 .video-fondo {
     display: none;
  
@@ -140,7 +147,8 @@
 }
 
 .title-f-principal {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-family: var(--fuente-seymour);
     margin-bottom: 2rem;
     background: linear-gradient(180deg, #2329D6 20%, #ff3c00 80%) padding-box;
     color: var(--color-transparente);
@@ -155,7 +163,7 @@
 
 .minutes {
     font-size: 3rem;
-    font-weight: 500;
+    font-family: var(--fuente-seymour);
     background: linear-gradient(180deg, #2329D6 20%, #ff3c00 80%) padding-box;
     color: var(--color-transparente);
     -webkit-background-clip: text;
@@ -163,7 +171,7 @@
 
 .seconds {
     font-size: 3rem;
-    font-weight: 500;
+    font-family: var(--fuente-seymour);
     background: linear-gradient(180deg, #2329D6 20%, #ff3c00 80%) padding-box;
     color: var(--color-transparente);
     -webkit-background-clip: text;
@@ -217,8 +225,9 @@
     letter-spacing: -0.2px;
 }
 
-.boton-mensaje {
-    padding: 1rem 1.4rem;
+.boton-mensaje, .button-musicFive {
+    width: 180px;
+    height: 50px;
     font-size: 1rem;
     font-weight: 200;
     cursor: pointer;
@@ -227,6 +236,11 @@
     color: var(--color-gris);
     border: none;
     border-radius: 5px;
+}
+
+.boton-colocarMusica {
+    text-align: center;
+    margin-top: 2rem;
 }
 
 .messaje-newyear::before {
