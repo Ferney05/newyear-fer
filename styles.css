@@ -150,31 +150,40 @@
     font-size: 2.5rem;
     font-family: var(--fuente-seymour);
     margin-bottom: 2rem;
-    background: linear-gradient(180deg, #2329D6 20%, #ff3c00 80%) padding-box;
-    color: var(--color-transparente);
-    -webkit-background-clip: text;
+    color: var(--color-gris);
 }
 
 .title {
     font-size: 1rem;
+    font-family: var(--fuente-promt);
     color: var(--color-gris);
-    font-weight: 200;
+    font-weight: 600;
 }
 
 .minutes {
     font-size: 3rem;
     font-family: var(--fuente-seymour);
-    background: linear-gradient(180deg, #2329D6 20%, #ff3c00 80%) padding-box;
-    color: var(--color-transparente);
-    -webkit-background-clip: text;
+    color: var(--color-gris);
 }
 
 .seconds {
     font-size: 3rem;
     font-family: var(--fuente-seymour);
-    background: linear-gradient(180deg, #2329D6 20%, #ff3c00 80%) padding-box;
-    color: var(--color-transparente);
-    -webkit-background-clip: text;
+    color: var(--color-gris);
+}
+
+.button-musicFive {
+    width: 180px;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: 200;
+    cursor: pointer;
+    outline: none;
+    background-color: var(--color-gris);
+    color: var(--color-azul-text);
+
+    border: none;
+    border-radius: 5px;
 }
 
 @media (max-width: 500px){
@@ -231,7 +240,7 @@
     letter-spacing: -0.2px;
 }
 
-.boton-mensaje, .button-musicFive {
+.boton-mensaje {
     width: 180px;
     height: 50px;
     font-size: 1rem;
