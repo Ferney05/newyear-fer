@@ -147,9 +147,9 @@
 }
 
 .title-f-principal {
-    font-size: 2.5rem;
-    font-family: var(--fuente-seymour);
+    font-size: 3rem;
     margin-bottom: 2rem;
+    font-weight: 600;
     color: var(--color-gris);
 }
 
@@ -188,7 +188,7 @@
 
 @media (max-width: 500px){
     .title-f-principal {
-        font-size: 1.7rem;
+        font-size: 2rem;
     }
 }
 
